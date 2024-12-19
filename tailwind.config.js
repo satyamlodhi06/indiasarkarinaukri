@@ -7,6 +7,8 @@ module.exports = {
         'skyblue':'#5EB5D3',
         'darkbule':'#172F5F',
         'text-color':'#ffffff',
+        'link-color':'#0800EE',
+        'border-color':'#A9DBED'
         
       },
       fontFamily:{
