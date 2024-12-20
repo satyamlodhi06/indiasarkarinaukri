@@ -17,6 +17,9 @@ module.exports = {
       },
       boxShadow:{
         'custom': '0 1px 15px #D7F5FF',
+      },
+      clipath:{
+        arrow:'clip-path: polygon(100% 0%, 95% 50%, 100% 100%, 25% 100%, 19% 50%, 25% 0%)'
       }
     },
   },
