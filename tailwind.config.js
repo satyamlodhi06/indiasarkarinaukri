@@ -8,8 +8,7 @@ module.exports = {
         'darkbule':'#172F5F',
         'text-color':'#ffffff',
         'link-color':'#0800EE',
-        'border-color':'#A9DBED'
-        
+        'border-color':'#A9DBED',
       },
       fontFamily:{
         'montserrat':'Montserrat',
@@ -18,9 +17,7 @@ module.exports = {
       boxShadow:{
         'custom': '0 1px 15px #D7F5FF',
       },
-      clipath:{
-        arrow:'clip-path: polygon(100% 0%, 95% 50%, 100% 100%, 25% 100%, 19% 50%, 25% 0%)'
-      }
+      
     },
   },
   plugins: [],
