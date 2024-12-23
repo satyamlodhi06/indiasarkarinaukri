@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./index.html'],
+  content: ['./index.html', './latest_jobs.html'],
   theme: {
     extend: {
       colors:{
@@ -17,6 +17,9 @@ module.exports = {
       boxShadow:{
         'custom': '0 1px 15px #D7F5FF',
       },
+      fontSize:{
+        'icon-size': '8px'
+      }
       
     },
   },
