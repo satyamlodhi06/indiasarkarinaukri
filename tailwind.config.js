@@ -16,6 +16,7 @@ module.exports = {
       },
       boxShadow:{
         'custom': '0 1px 15px #D7F5FF',
+        'custom2': '0 3px 8px #4F6FB0'
       },
       fontSize:{
         'icon-size': '8px'
