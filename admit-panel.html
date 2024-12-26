@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-gray-100">
+<!-- Header -->
+<header class="w-full flex items-center bg-skyblue2 shadow-md">
+    <div class="w-1/5 bg-white flex justify-center p-4 ">
+        <a href="#"><img src="images/logo.png" alt="Logo" class="w-16"></a>
+    </div>
+    <div class="w-4/5 flex items-center justify-between p-4">
+        <h3 class="text-xl md:text-2xl font-bold text-white">INDIA SARAKRI NAUKRI</h3>
+        <div class="flex items-center space-x-12">
+            <div class="relative">
+                <input 
+                    type="text" 
+                    placeholder="Search across menu..." 
+                    class="w-40 md:w-64 p-2 rounded-full border border-white bg-transparent text-white placeholder-white focus:outline-none"
+                />
+                <i class="ri-search-line absolute top-1/2 transform -translate-y-1/2 right-3 text-white"></i>
+            </div>
+            <div class="relative">
+                <i class="ri-notification-2-line bg-white p-2 md:p-3 rounded-full text-skyblue"></i>
+                <span class="absolute top-[-8px] right-1 w-2 h-2 bg-red-500 rounded-full"></span>
+            </div>
+            <div class="flex items-center space-x-2">
+                <img src="images/user.png" alt="User" class="w-8 md:w-12 rounded-full">
+                <select class="bg-transparent text-white focus:outline-none">
+                    <option class="text-black">John Semi</option>
+                    <option class="text-black">John Semi Semi</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Sidebar and Main Content -->
+<div class="flex justify-between">
+    <!-- Sidebar -->
+    <nav class="w-1/5 bg-skyblue2 h-lvh overflow-y-scroll fixed top-30 left-0 z-10 scrollbar-hide">
+        <ul class="space-y-4 px-4 mb-28">
+            <li class="flex p-3 items-center hover:bg-skyblue rounded-lg"><a href="#" class=" font-medium text-white"><i class="ri-home-2-line mr-2"></i>Dashboard</a></li>
+            <li class="flex p-3 items-center hover:bg-skyblue rounded-lg"><a href="#" class=" font-medium text-white"><i class="ri-user-line mr-2"></i>User Management</a></li>
+            <li class="flex p-3 items-center hover:bg-skyblue rounded-lg" ><a href="#" class=" font-medium text-white"><i class="ri-team-line mr-2"></i>Student Management</a></li>
+            <li class="flex items-center p-3 justify-between hover:bg-skyblue rounded-lg"><a href="#" class=" font-medium  text-white "><i class="ri-briefcase-line mr-2"></i>Job Management </a><span><i class="ri-arrow-down-s-linem text-white"></i></span></li>
+            <li class="flex items-center p-3 justify-between hover:bg-skyblue rounded-lg"><a href="#" class=" font-medium  text-white "><i class="ri-draft-line mr-2"></i>Admission Management</a><span><i class="ri-arrow-down-s-line text-white"></i></span></li>
+            <li class="flex p-3 items-center hover:bg-skyblue  rounded-lg" ><a href="#" class=" font-medium  text-white"><i class="ri-clipboard-line mr-2"></i>Mock Test Management</a></li>
+            <li class="flex items-center p-3 justify-between hover:bg-skyblue rounded-lg" ><a href="#" class=" font-medium  text-white "><i class="ri-git-repository-line mr-2"></i>Study Material Management</a><span><i class="ri-arrow-down-s-line text-white"></i></span></li>
+            <li class="flex p-3 items-center  hover:bg-skyblue rounded-lg" ><a href="#" class=" font-medium text-white"><i class="ri-calendar-check-line mr-2"></i>Plan Management</a></li>
+            <li class="flex items-center p-3 justify-between  hover:bg-skyblue rounded-lg" ><a href="#" class=" font-medium  text-white"><i class="ri-earth-line mr-2"></i>Website Management</a><span><i class="ri-arrow-down-s-line  text-white"></i></span></li>
+            <li class="flex p-3 items-center hover:bg-skyblue  rounded-lg" ><a href="#" class=" font-medium text-white"><i class="ri-notification-line mr-2"></i>Notification Management</a></li>
+        </ul>
+    </nav>
+    <!-- Main Content -->
+    <main class="w-4/5 ml-80 p-3">
+        <h1 class="text-2xl font-bold text-gray-700">Welcome to the Dashboard</h1>
+        <!-- Add your main content here -->
+    </main>
+</div>
+
+<!-- Footer -->
+<footer class="w-full bg-skyblue2 text-white text-center p-4 fixed bottom-0">
+    <h5 class="text-sm"> © All Right Reserved | 
+        <a href="https://www.mediatechtemple.com/web-design-and-development-services/" class="text-darkbule" target="_blank" title="Media Tech Temple">Website Developed By</a>
+        <a href="https://mediatechtemple.com/" class="text-darkbule" target="_blank"  title="Media Tech Temple">Media Tech Temple</a></h5>
+</footer>
+
+</body>
+</html>
