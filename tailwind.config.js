@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./index.html', './latest_jobs.html', './state-wise-job.html', './all-government-job.html', './admit-panel.html' ],
+  content: ['./index.html', './latest_jobs.html', './state-wise-job.html', './all-government-job.html', './admin-panel.html', './link-click-page.html'],
   theme: {
     extend: {
       colors:{
@@ -12,6 +12,7 @@ module.exports = {
         'dark-skyblue':'#4682B4',
         'dark-skybule2':'#2C598E',
         'skyblue2': '#409CBC',
+        'purple':'#ff0000',
       },
       fontFamily:{
         'montserrat':'Montserrat',
