@@ -969,7 +969,7 @@ video {
   border-top-width: 1px;
 }
 
-.border-border-color{
+.border-borderColor{
   --tw-border-opacity: 1;
   border-color: rgb(169 219 237 / var(--tw-border-opacity, 1));
 }
@@ -984,7 +984,7 @@ video {
   border-color: rgb(94 181 211 / var(--tw-border-opacity, 1));
 }
 
-.border-text-color{
+.border-textColor{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
@@ -999,7 +999,7 @@ video {
   background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
 }
 
-.bg-dark-skyblue{
+.bg-darkSkyblue{
   --tw-bg-opacity: 1;
   background-color: rgb(70 130 180 / var(--tw-bg-opacity, 1));
 }
@@ -1157,6 +1157,10 @@ video {
   line-height: 2rem;
 }
 
+.text-\[11px\]{
+  font-size: 11px;
+}
+
 .text-\[15px\]{
   font-size: 15px;
 }
@@ -1182,10 +1186,6 @@ video {
   line-height: 1.5rem;
 }
 
-.text-icon-size{
-  font-size: 8px;
-}
-
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1204,18 +1204,6 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[10px\]{
-  font-size: 10px;
-}
-
-.text-\[12px\]{
-  font-size: 12px;
-}
-
-.text-\[11px\]{
-  font-size: 11px;
 }
 
 .font-medium{
@@ -1259,7 +1247,7 @@ video {
   color: rgb(31 41 55 / var(--tw-text-opacity, 1));
 }
 
-.text-link-color{
+.text-linkcolor{
   --tw-text-opacity: 1;
   color: rgb(8 0 238 / var(--tw-text-opacity, 1));
 }
@@ -1279,7 +1267,7 @@ video {
   color: rgb(64 156 188 / var(--tw-text-opacity, 1));
 }
 
-.text-text-color{
+.text-textColor{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
@@ -1391,7 +1379,7 @@ video {
   color: rgb(23 47 95 / var(--tw-text-opacity, 1));
 }
 
-.hover\:bg-dark-skybule2:hover{
+.hover\:bg-darkSkybule2:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(44 89 142 / var(--tw-bg-opacity, 1));
 }
@@ -1463,6 +1451,10 @@ video {
     gap: 1.25rem;
   }
 
+  .sm\:p-1{
+    padding: 0.25rem;
+  }
+
   .sm\:p-2{
     padding: 0.5rem;
   }
@@ -1477,10 +1469,6 @@ video {
 
   .sm\:p-\[10px\]{
     padding: 10px;
-  }
-
-  .sm\:p-1{
-    padding: 0.25rem;
   }
 
   .sm\:py-2{
