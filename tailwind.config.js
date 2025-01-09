@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./index.html', './latest_jobs.html', './state-wise-job.html', './all-government-job.html', './admin-panel.html', './link-click-page.html'],
+  content: ['./index.html', './latest_jobs.html', './state-wise-job.html', './all-government-job.html', './admin-panel.html', './link-click-page.html', './privacy-policy.html'],
   theme: {
     extend: {
       colors:{
