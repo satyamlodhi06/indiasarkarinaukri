@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lastest-govt-amditCard</title>
+    <title>All Lastest govt. vacancy</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="output.css">
@@ -53,13 +53,94 @@
                     </div>
                 </div>
             </header>
-            <h3 class="text-base text-center mt-3 sm:text-xl sm:mt-8  sm:mb-3 lg:text-2xl lg:mt-8 lg:mb-4 text-skyblue font-semibold"> All Latest Govt. Admit Card </h3>
+            <h3 class="text-base text-center mt-3 sm:text-xl sm:mt-8  sm:mb-3 lg:text-2xl lg:mt-8 lg:mb-4 text-skyblue font-semibold">All Lastest Govt. Vacancy</h3>
+            <!-- Filters -->
+            <div class="p-1">
+                <h4 class="text-base mt-1 sm:text-lg lg:text-xl  text-darkbule font-semibold">Filter By</h4>
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mb-6 mt-4">
+                    <!-- Location -->
+                    <div class="relative w-full">
+                        <input
+                          type="text"
+                          placeholder="Location..."
+                          class="w-full focus:outline-none bg-transparent py-2 text-gray-700 border border-borderColor rounded-full pl-4 placeholder:text-sm placeholder:text-darkbule"
+                        />
+                        <i class="ri-search-line absolute right-3 mt-5 transform -translate-y-1/2 text-darkbule text-lg"></i>
+                    </div>
+              
+                    <!-- Category -->
+                    <div class="relative w-full">
+                      <input
+                        type="text"
+                        placeholder="Category..."
+                        class="w-full focus:outline-none bg-transparent  py-2 text-gray-700 border border-borderColor rounded-full pl-4 placeholder:text-sm placeholder:text-darkbule"
+                      />
+                      <i class="ri-search-line absolute right-3 mt-5 transform -translate-y-1/2 text-darkbule text-lg"></i>
+                    </div>
+              
+                    <!-- Department -->
+                    <div class="relative w-full">
+                      <input
+                        type="text"
+                        placeholder="Department..."
+                        class="w-full focus:outline-none bg-transparent py-2 text-gray-700 border border-borderColor rounded-full pl-4 placeholder:text-sm placeholder:text-darkbule"
+                      />
+                      <i class="ri-search-line absolute right-3 mt-5 transform -translate-y-1/2 text-darkbule text-lg"></i>
+                    </div>
+                
+              
+                    <!-- Passed Education -->
+                    <div class="relative w-full">
+                        <input
+                          type="text"
+                          placeholder="Passed Eduction..."
+                          class="w-full focus:outline-none bg-transparent py-2 text-gray-700 border border-borderColor rounded-full pl-4 placeholder:text-sm placeholder:text-darkbule"
+                        />
+                        <i class="ri-search-line absolute right-3 mt-5 transform -translate-y-1/2 text-darkbule text-lg"></i>
+                    </div>
+                </div>
+                <!-- Sliders Section -->
+                <div class="w-full grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mb-6 mt-5">
+                    <!-- Experience Slier -->
+                    <div class="border border-borderColor rounded-3xl p-4 text-center">
+                        <label class="text-gray-600 text-sm">Experience: <span id="experience-value">0</span></label>
+                        <input type="range" min="0" max="50" value="0" class="w-full mt-2 bg-skyblue"/>
+                    </div>
+                    <!-- Age Slider -->
+                    <div class="border border-borderColor rounded-3xl p-4 text-center">
+                        <label class="text-gray-600 text-sm">Age: <span id="age-value">20</span></label>
+                        <input type="range" min="0" max="100" value="0" class="w-full mt-2 " />
+                    </div>
+                
+                    <!-- Salary Slider -->
+                    <div class="border border-borderColor rounded-3xl p-4 text-center">
+                        <label class="text-gray-600 text-sm">Salary: <span id="salary-value">10000</span></label>
+                        <input type="range" min="0" max="100000" step="0" value="0" class="w-full mt-2"/>
+                    </div>
+                
+                    <!-- Date Range -->
+                    <div class="border border-borderColor rounded-3xl p-4 text-center">
+                        <label class="text-gray-600 text-sm">Date Range</label>
+                        <input type="text" placeholder="20 Jan 2024 - 9 Feb 2024" class="w-full focus:outline-none bg-transparent px-2 mt-2 placeholder:text-darkbule" />
+                    </div>
+                </div>    
+                <!-- Buttons Section -->
+                <div class="flex justify-center gap-8 w-full mt-5">
+                    <button class="bg-skyblue text-white p-3 rounded-3xl">
+                        Apply Filters
+                    </button>
+                    <button class="bg-skyblue text-white p-3 rounded-3xl">
+                        Clear Filters
+                    </button>
+                </div>
+                  
+            </div>
             <!-- Jobs links and Category -->
             <div class="w-full flex justify-between gap-3 p-1 mt-5 lg:gap-8 md:gap-6 lg:mt-8">
                 <div class="border border-borderColor" style="width: 70%;">
                     <!-- Header Section -->
                     <div class="bg-skyblue text-white text-center text-base font-medium p-4 md:text-xl lg:text-2xl">
-                        Latest Govt. Admit Card
+                      Latest Govt. Vacancy
                     </div>
                     <!-- Job Listings -->
                     <ul class="p-4 space-y-5">
@@ -166,128 +247,173 @@
                <div>
                 <div class="bg-skyblue">
                     <h2 class="p-2 text-center text-white font-medium text-base sm:text-xl sm:py-3 md:text-2xl md:py-4 lg:text-2xl lg:font-semibold lg:py-4">
-                        India Sarkari Naukri.com: Latest Sarkari Exam Admit Card 2025
+                        Welcome to Latest Govt. Vacancy : Sarkari Naukri 2025
                     </h2>
                 </div>
                 <div class="p-1 mt-1 sm:p-2 sm:mt-1 lg:p-2 lg:mt-2">
                     <p class="text-xs leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7 lg:leading-7">
-                        Good news for candidates preparing for <a class="text-linkcolor underline font-medium" href="#">government jobs</a> in India! Now, easily download all government recruitment exam admit cards, hall tickets, and entrance letters from the India <a class="text-linkcolor underline font-medium"  href="#">Sarkari Naukri</a> website. Get your admit card today for over 5000+ government job exams scheduled in 2025.
+                       India <a class="text-linkcolor underline font-medium" href="#">Sarkari Naukri.Com</a> is your trusted portal for the latest Sarkari Naukri vacancies in India for 2025. We provide comprehensive updates on a wide range of positions, including ITI Apprentice, Graduate Apprentice, Stenographer, Railway Jobs, SSC, UPSC, state-specific roles, teaching positions, various limited company vacancies, and bank job opportunities. Whether you're a fresh graduate, an experienced professional, or someone looking to make a career change, we've got you covered with the most up-to-date and detailed job listings. Explore the exciting opportunities that await you in the government sector.
+                    </p>
+                    <p class=" mt-3 text-xs leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7 lg:leading-7">
+                        In today's competitive job market, securing a stable government job is a dream for many in India. Government jobs offer job security, attractive pay scales, and various benefits. In this comprehensive guide, we will explore the latest <a class="text-linkcolor underline font-medium"  href="#">Naukri Exam</a> vacancies, including the Delhi Subordinate Services Selection Board (DSSSB) Vacancy, Staff Selection Commission (SSC) Delhi Police Constable Vacancy, Union Public Service Commission (UPSC) recruitment, and opportunities in the Indian Army, Navy, and Airforce. Stay tuned for detailed information on these prestigious job openings.
                     </p>
                 </div>               
                </div>
+               <!-- esrjoerjio -->
                <!-- content 2 -->
+                <!-- another comment -->
                <div class="mt-4">
                 <div class="bg-skyblue">
                     <h3 class="p-2 text-center text-white font-medium text-base sm:text-xl sm:py-3 md:text-2xl md:py-4 lg:text-2xl lg:font-semibold lg:py-4">
-                        Importance of Sarkari Admit Card
+                        Delhi Subordinate Services Selection Board (DSSSB) Vacancy
                     </h3>
                 </div>
                 <div class="p-1 mt-1 sm:p-2 sm:mt-1 lg:p-2 lg:mt-2">
                     <p class="text-xs leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
-                        The admit card (Hall Ticket) is a mandatory document for appearing in government exams. It contains essential details such as the candidate’s name, roll number, exam date, exam center, and other instructions. Without the admit card, entry to the exam center is not allowed. Therefore, downloading and keeping it safe on time is crucial.
+                        DSSSB  plays a pivotal role in recruiting highly qualified individuals for various government departments in the National Capital Territory of Delhi. Job seekers can find opportunities in fields such as teaching, healthcare, administrative services, and more. The DSSSB conducts regular examinations and announces vacancies through its official website, making it crucial to keep an eye on their updates.
                     </p>
+                    <h5 class="text-xs mt-4 mb-1 text-black font-semibold  sm:text-sm md:text-base lg:text-base">Know more: <a class="text-linkcolor underline font-medium" href="#">DSSSB Vacancy 2025</a></h5>   
                 </div>
                </div>
                 <!-- content 3 -->
                 <div class="mt-4">
                     <div class="bg-skyblue">
                         <h3 class="p-2 text-center text-white font-medium text-base sm:text-xl sm:py-3 md:text-2xl md:py-4 lg:text-2xl lg:font-semibold lg:py-4">
-                            Admit Cards Available on India Sarkari Naukri.com
+                            Staff Selection Commission (SSC) Delhi Police Constable Vacancy
                         </h3>
                     </div>
                     <div class="p-1 mt-1 sm:p-2 sm:mt-1 lg:p-2 lg:mt-2">
                         <p class="text-xs leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
-                            Our website provides admit cards for various government recruitments, including:
-                        </p>
-                        <!-- list 1 -->
-                        <p class="text-xs mt-3 mb-1 leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
-                            <span class="text-xs text-darkbule font-semibold  sm:text-sm md:text-base lg:text-base">1. Banking Exams </span>: SBI PO, IBPS Clerk, IBPS PO, RBI Assistant, etc.
-                        </p>
-                        <!-- list 2 -->
-                        <p class="text-xs mt-3 mb-1 leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
-                            <span class="text-xs text-darkbule font-semibold  sm:text-sm md:text-base lg:text-base">2. Railway Recruitment </span>: RRB NTPC, <a class="text-linkcolor underline font-medium" href="#">RRB Group D</a>, RPF Constable, RRB JE, RPF, Technician etc.
-                        </p>
-                        <!-- list 3 -->
-                        <p class="text-xs mt-3 mb-1 leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
-                            <span class="text-xs text-darkbule font-semibold  sm:text-sm md:text-base lg:text-base">3. Union Public Service Commission (UPSC)</span>: Civil Services Exam, NDA, CDS, etc.
-                        </p>
-                        <!-- list 4 -->
-                        <p class="text-xs mt-3 mb-1 leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
-                            <span class="text-xs text-darkbule font-semibold  sm:text-sm md:text-base lg:text-base">4. State-Level Exams</span>: UPPSC, BPSC, MPPSC, RPSC, RSSB, <a class="text-linkcolor underline font-medium" href="#">DSSSB</a>, etc.
-                        </p>
-                        <!-- list 5 -->
-                        <p class="text-xs mt-3 mb-1 leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
-                            <span class="text-xs text-darkbule font-semibold  sm:text-sm md:text-base lg:text-base">5. SSC Exams</span>: SSC CGL, SSC CHSL, SSC MTS, SSC GD Constable, etc.
-                        </p>
-                        <!-- list 6 -->
-                        <p class="text-xs mt-3 mb-1 leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
-                            <span class="text-xs text-darkbule font-semibold  sm:text-sm md:text-base lg:text-base">6. Education Sector Recruitment</span>: CTET, UPTET, KVS, DSSSB, etc.
-                        </p>
-                        <!-- list 7 -->
-                        <p class="text-xs mt-3 mb-1 leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
-                            <span class="text-xs text-darkbule font-semibold  sm:text-sm md:text-base lg:text-base">7. Police Recruitment Exams</span>: SI, Constable, ASI, etc.
-                        </p>
-                        <!-- list 8 -->
-                        <p class="text-xs mt-3 mb-1 leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
-                            <span class="text-xs text-darkbule font-semibold  sm:text-sm md:text-base lg:text-base">8. Other Government Exams</span>: LIC AAO, DRDO, ISRO, FCI, ESIC, etc.
+                            The SSC Delhi Police Constable recruitment is a sought-after opportunity for those aspiring to serve in the law enforcement sector. This recruitment drive offers positions in the Delhi Police Force, providing candidates with a chance to contribute to the safety and security of the national capital. The SSC conducts a rigorous selection process, including written exams, physical endurance tests, and interviews, ensuring that only the best candidates are selected.
                         </p>
                     </div>
                 </div>
                 <!-- content 4 -->
-                <div class="mt-4">
+                <div class=" mt-2">
                     <div class="bg-skyblue">
                         <h3 class="p-2 text-center text-white font-medium text-base sm:text-xl sm:py-3 md:text-2xl md:py-4 lg:text-2xl lg:font-semibold lg:py-4">
-                            How to Download Admit Card?
+                            Union Public Service Commission (UPSC) Recruitment
                         </h3>
                     </div>
                     <div class="p-1 mt-1 sm:p-2 sm:mt-1 lg:p-2 lg:mt-2">
                         <p class="text-xs leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
-                            Our website provides admit cards for various government recruitments, including:
+                            UPSC is India's premier central recruiting agency, responsible for appointing candidates to various prestigious civil services and government positions. UPSC conducts a range of examinations, including the Civil Services Examination (CSE), Indian Engineering Services (IES), Indian Forest Services (IFS), and more. These examinations attract lakhs of aspirants each year due to the exceptional career opportunities they offer in the Indian Administrative Service (IAS), Indian Police Service (IPS), and other elite government services.
                         </p>
-                        <!-- list 1 -->
-                        <p class="text-xs mt-3 mb-1 leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
-                            <span class="text-xs text-darkbule font-semibold  sm:text-sm md:text-base lg:text-base">1.</span> Visit India <a class="text-linkcolor underline font-medium" href="#">Sarkari Naukri website</a> 
-                        </p>
-                        <!-- list 2 -->
-                        <p class="text-xs mt-3 mb-1 leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
-                            <span class="text-xs text-darkbule font-semibold  sm:text-sm md:text-base lg:text-base">2.</span> Click on the "Latest Admit Card" section.
-                        </p>
-                        <!-- list 3 -->
-                        <p class="text-xs mt-3 mb-1 leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
-                            <span class="text-xs text-darkbule font-semibold  sm:text-sm md:text-base lg:text-base">3.</span> Find and click on your exam name.
-                        </p>
-                        <!-- list 4 -->
-                        <p class="text-xs mt-3 mb-1 leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
-                            <span class="text-xs text-darkbule font-semibold  sm:text-sm md:text-base lg:text-base">4.</span> Log in using your Registration Number and DOB.
-                        </p>
-                        <!-- list 5 -->
-                        <p class="text-xs mt-3 mb-1 leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
-                            <span class="text-xs text-darkbule font-semibold  sm:text-sm md:text-base lg:text-base">5.</span> Click the "Download Admit Card" button.
-                        </p>
-                        <!-- list 6 -->
-                        <p class="text-xs mt-3 mb-1 leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
-                            <span class="text-xs text-darkbule font-semibold  sm:text-sm md:text-base lg:text-base">6.</span> Save the admit card in PDF format and take a printout.
-                        </p>
-
                     </div>
                 </div>
                 <!-- content 5 -->
-                <div class="mt-4">
+                <div class=" mt-4">
                     <div class="bg-skyblue">
-                        <h3 class="p-2 text-center text-white font-medium text-base sm:text-xl sm:py-3 md:text-2xl md:py-4 lg:text-2xl lg:font-semibold lg:py-4">
-                            Important Instructions for Downloading Admit Card
+                        <h3
+                            class="p-2 text-center text-white font-medium text-base sm:text-xl sm:py-3 md:text-2xl md:py-4 lg:text-2xl lg:font-semibold lg:py-4">
+                            Indian Army Jobs
                         </h3>
                     </div>
                     <div class="p-1 mt-1 sm:p-2 sm:mt-1 lg:p-2 lg:mt-2">
-                        <p class=" flex items-center text-xs leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7 font-medium"><i class="ri-circle-fill text-skyblue text-iconsize mr-2"></i>Carefully check all the details before downloading the admit card.</p>
-                        <p class=" flex items-center text-xs leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7 mt-2 font-medium" ><i class="ri-circle-fill text-skyblue text-iconsize mr-2"></i>Carry a hard copy of the admit card along with a valid ID proof (Aadhaar Card, PAN Card, Voter ID, Driving License) to the exam center.</p>
-                        <p class=" flex items-center text-xs leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7 mt-2 font-medium"><i class="ri-circle-fill text-skyblue text-iconsize mr-2"></i>Arrive at the exam center well in advance of the designated reporting time.</p>
-                        <p class=" flex items-center text-xs leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7 mt-2 font-medium"><i class="ri-circle-fill text-skyblue text-iconsize mr-2"></i>Read and follow the exam-related instructions carefully.</p>
-                        <p class="text-xs mt-6 mb-1 leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
-                            <span class="text-xs text-darkbule font-semibold sm:text-sm md:text-base lg:text-base">Conclusion:</span> If you are preparing for any government exam, downloading the admit card on time is essential. <a class="text-linkcolor underline font-medium" href="#">India Sarkari Naukri.com</a> provides the latest government job admit cards, hall tickets, and entrance letters. Visit the website today and download your admit card now.
+                        <p class="text-xs leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
+                            Serving in the Indian Army is a lifelong commitment to safeguarding the nation's borders and maintaining internal security. The Army offers a wide array of career opportunities for both officers and soldiers, including technical, medical, and administrative roles. Aspiring candidates can join through various entry modes, such as the National Defence Academy (NDA), the Combined Defence Services (CDS) examination, and the Short Service Commission (SSC) for technical and non-technical roles.
                         </p>
                     </div>
                 </div>
+                <!-- content 6 -->
+                <div class=" mt-4">
+                    <div class="bg-skyblue">
+                        <h3
+                            class="p-2 text-center text-white font-medium text-base sm:text-xl sm:py-3 md:text-2xl md:py-4 lg:text-2xl lg:font-semibold lg:py-4">
+                            Indian Navy Jobs
+                        </h3>
+                    </div>
+                    <div class="p-1 mt-1 sm:p-2 sm:mt-1 lg:p-2 lg:mt-2">
+                        <p class="text-xs leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
+                            The Indian Navy is a vital component of the nation's defense, responsible for securing maritime borders and maintaining peace and stability in the Indian Ocean region. Job seekers can explore diverse career paths within the Navy, including executive, technical, and education branches. The Indian Navy regularly releases recruitment notifications for sailors, officers, and other technical and non-technical positions.</p>
+                    </div>
+                </div>
+                <!-- content 7 -->
+                <div class=" mt-4">
+                    <div class="bg-skyblue">
+                        <h3
+                            class="p-2 text-center text-white font-medium text-base sm:text-xl sm:py-3 md:text-2xl md:py-4 lg:text-2xl lg:font-semibold lg:py-4">
+                            Indian Air force Jobs
+                        </h3>
+                    </div>
+                    <div class="p-1 mt-1 sm:p-2 sm:mt-1 lg:p-2 lg:mt-2">
+                        <p class="text-xs leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
+                            Joining the Indian Air Force allows individuals to soar to new heights, both literally and figuratively. The Air Force offers opportunities in flying, technical, and ground duty branches. Candidates can apply through various entry schemes like the Air Force Common Admission Test (AFCAT), National Defence Academy (NDA), and Combined Defence Services (CDS) examination. The Air Force ensures that recruits are equipped with cutting-edge technology and training to protect Indian airspace and project national power.                  
+                        </p>
+                    </div>
+                </div>
+                <!-- content 8 -->
+                <div class="mt-4">
+                    <div class="bg-skyblue">
+                        <h3 class="p-2 text-center text-white font-medium text-base sm:text-xl sm:py-3 md:text-2xl md:py-4 lg:text-2xl lg:font-semibold lg:py-4">
+                            ITI Apprentice Jobs and Graduate Apprentice Jobs
+                        </h3>
+                    </div>
+                    <div class="p-1 mt-1 sm:p-2 sm:mt-1 lg:p-2 lg:mt-2">
+                        <p class="text-xs leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
+                            At India Sarkari Naukri, we understand the importance of skill development and on-the-job training. That's why we provide timely updates on <a class="text-linkcolor underline" href="#">ITI Apprentice</a> and Graduate Apprentice job openings across various industries. These apprenticeships offer valuable hands-on experience and are an excellent way to kickstart your career. Stay tuned for notifications from renowned organizations and government departments offering apprenticeship programs that can set you on a path to success.
+                        </p>
+                        <h5 class="text-xs mt-4 mb-1 text-darkbule font-semibold  sm:text-sm md:text-base lg:text-base">Stenographer Jobs:</h5>
+                        <p class="text-xs leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
+                            Are you skilled in shorthand and looking for a challenging career as a stenographer in the government sector? India Sarkari Naukri brings you the latest stenographer job vacancies from various government departments and ministries. Stenographers play a crucial role in maintaining official records and facilitating smooth communication. Explore our listings to find stenographer job opportunities that match your qualifications and aspirations.
+                        </p>
+                        <h5 class="text-xs mt-4 mb-1 text-darkbule font-semibold  sm:text-sm md:text-base lg:text-base ">Railway Jobs:</h5>
+                        <p class="text-xs leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
+                            The Indian Railways is one of the largest employers in the country, offering diverse career options. At India Sarkari Naukri, we keep you updated on the latest railway job vacancies, including opportunities in RRB (Railway Recruitment Board), Junior Engineer (JE), Loco Pilot, Ticket Collector (TCE), Technician, Post Guard, Fireman, Group D Staff, and Group C positions. Whether you're interested in technical roles, operational positions, or administrative jobs, we have comprehensive listings to help you navigate the railway job landscape.
+                        </p>
+                    </div>
+                </div>
+                <!-- content 9 -->
+                <div class=" mt-4">
+                    <div class="bg-skyblue">
+                        <h3
+                            class="p-2 text-center text-white font-medium text-base sm:text-xl sm:py-3 md:text-2xl md:py-4 lg:text-2xl lg:font-semibold lg:py-4">
+                            Bank Job Vacancies
+                        </h3>
+                    </div>
+                    <div class="p-1 mt-1 sm:p-2 sm:mt-1 lg:p-2 lg:mt-2">
+                        <p class="text-xs leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
+                            For those seeking a secure and rewarding career in the banking sector, India Sarkari Naukri provides detailed information on bank job vacancies. We cover a wide spectrum of bank jobs, including Probationary Officer (PO), Clerk, Accountant, and more. As banks are the backbone of the financial sector, they offer excellent opportunities for growth and stability. Keep yourself updated with our listings to find your ideal banking job and embark on a journey toward financial success
+                        </p>
+                    </div>
+                </div>
+                <!-- content 10 -->
+                <div class="mt-4">
+                    <div class="bg-skyblue">
+                        <h3
+                            class="p-2 text-center text-white font-medium text-base sm:text-xl sm:py-3 md:text-2xl md:py-4 lg:text-2xl lg:font-semibold lg:py-4">
+                            Most Popular Questions Which Students Ask
+                        </h3>
+                    </div>
+                    <div class="mt-5  sm:mt-6 lg:mt-8">
+                        <h3 class="p-2 w-full flex justify-between  bg-skyblue text-white font-medium text-xs sm:text-sm sm:py-2 md:text-base md:py-3 lg:text-lg lg:w-9/12 l lg:font-medium lg:py-3">
+                            How to Secure a Government Job Without an Intexrview? <i class="ri-arrow-down-s-line"></i>
+                        </h3>
+                        <h3 class="p-2 mt-3 w-full flex justify-between  bg-skyblue text-white font-medium text-xs sm:text-sm sm:py-2 md:text-base md:py-3 lg:text-lg lg:w-9/12 l lg:font-medium lg:py-3">
+                            Which Government Jobs Offer the Best Salaries?<i class="ri-arrow-down-s-line"></i>
+                        </h3>
+                        <h3 class="p-2 mt-3 w-full flex justify-between  bg-skyblue text-white font-medium text-xs sm:text-sm sm:py-2 md:text-base md:py-3 lg:text-lg lg:w-9/12 l lg:font-medium lg:py-3">
+                            Is TCS a Government Job?<i class="ri-arrow-down-s-line"></i>
+                        </h3>
+                        <h3 class="p-2 mt-3 w-full flex justify-between  bg-skyblue text-white font-medium text-xs sm:text-sm sm:py-2 md:text-base md:py-3 lg:text-lg lg:w-9/12 l lg:font-medium lg:py-3">
+                            How can you get a government job without an interview?<i class="ri-arrow-down-s-line"></i>
+                        </h3>
+                        <h3 class="p-2 mt-3 w-full flex justify-between  bg-skyblue text-white font-medium text-xs sm:text-sm sm:py-2 md:text-base md:py-3 lg:text-lg lg:w-9/12 l lg:font-medium lg:py-3">
+                            Which Examinations Do Not Include Interviews?<i class="ri-arrow-down-s-line"></i>
+                        </h3>
+                        <h3 class="p-2 mt-3 w-full flex justify-between  bg-skyblue text-white font-medium text-xs sm:text-sm sm:py-2 md:text-base md:py-3 lg:text-lg lg:w-9/12 l lg:font-medium lg:py-3">
+                            Which Positions Do Not Require Interviews?<i class="ri-arrow-down-s-line"></i>
+                        </h3>
+                    </div>
+                </div>
+                <!-- Conclusion -->
+                <p class="text-xs mt-6 mb-1 leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7">
+                    <span class="text-xs text-darkbule font-semibold sm:text-sm md:text-base lg:text-base">Conclusion:</span> India Sarkari Naukri is your one-stop destination for the latest government job 
+                    updates in India. Whether you aspire to be an ITI Apprentice, Graduate Apprentice,  Stenographer, Railway professional, or banking expert, we provide you with the most comprehensive and up-to-date job listings. Our mission is to connect talented individuals with rewarding government career opportunities, helping you take the next step in your professional journey. Stay tuned, stay informed,and let us guide you toward a brighter futur in the public sector.Your dream government job is just a click away.
+                </p>
+                <p class="text-xs leading-relaxed sm:text-sm md:text-sm md:leading-6 lg:text-base lg:leading:7 mt-2">
+                    In a country like India, where government jobs are highly regarded, staying updated on the latest vacancies is crucial for career aspirants. The Delhi Subordinate Services Selection Board (DSSSB), Staff Selection Commission (SSC) <a href="#" class="text-linkcolor underline font-medium">Delhi Police Constable</a>, Union Public Service Commission (UPSC), Indian Army, Navy, and Airforce offer diverse career opportunities that cater to a wide range of interests and skill sets. Keep a close watch on official websites, follow application guidelines, and prepare diligently to embark on a fulfilling and rewarding career in the public sector. Your dream government job may be just an application away!
+                </p>
             </div>
             <!-- Scroll-to-top Button -->
             <button class="hidden lg:block lg:fixed lg:right-16 lg:bottom-6 lg:w-14 lg:h-14 lg:bg-skyblue lg:rounded-full">
