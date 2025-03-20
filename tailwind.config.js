@@ -3,7 +3,7 @@ module.exports = {
   content: ['./index.html', './latest_jobs.html',
    './state-wise-job.html', './all-government-job.html',
    './admin-panel.html', './link-click-page.html', './privacy-policy.html',
-   './lastest-govt-result.html','./latest-govt-admitCard.html','./all-answer-key.html'],
+   './lastest-govt-result.html','./latest-govt-admitCard.html','./all-answer-key.html','./login.html','./sign-in.html','./sign-upstudents.html','./sign-upteacher.html'],
   theme: {
     extend: {
       colors:{
@@ -29,7 +29,6 @@ module.exports = {
       fontSize:{
         iconsize: '8px',
       }
-      
     },
   },
   plugins: [
